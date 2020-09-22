@@ -14,5 +14,6 @@ public class TreeApp {
         intSet.add(21);
 
         System.out.println(intSet.first());
+        System.out.println(intSet.last());
     }
 }

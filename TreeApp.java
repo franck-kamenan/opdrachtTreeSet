@@ -13,7 +13,7 @@ public class TreeApp {
         intSet.add(24);
         intSet.add(21);
 
-        System.out.println(intSet.first());
-        System.out.println(intSet.last());
+        System.out.println(intSet.first());  //kleinste
+        System.out.println(intSet.last());  //grootste
     }
 }

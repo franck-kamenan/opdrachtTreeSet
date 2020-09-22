@@ -6,7 +6,7 @@ public class TreeApp {
 
     public static void main(String[] args) {
 
-        SortedSet<Integer> intSet = new TreeSet<>();
+        NavigableSet<Integer> intSet = new TreeSet<>();
         intSet.add(15);
         intSet.add(14);
         intSet.add(19);
@@ -15,5 +15,7 @@ public class TreeApp {
 
         System.out.println(intSet.first());  //kleinste
         System.out.println(intSet.last());  //grootste
+
+        System.out.println(intSet.floor(20));  //grootste getal onder of gelijk aan 20
     }
 }

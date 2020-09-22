@@ -21,5 +21,7 @@ public class TreeApp {
 
         System.out.println(intSet.floor(20));  //grootste getal onder of gelijk aan 20
         System.out.println(intSet.ceiling(20));  //kleinste getal boven of gelijk aan 20
+        System.out.println(intSet.lower(20));  //grootste getal onder 20
+        System.out.println(intSet.higher(20));  //kleinste getal boven 20
     }
 }

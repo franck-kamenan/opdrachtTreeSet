@@ -12,9 +12,12 @@ public class TreeApp {
         intSet.add(19);
         intSet.add(24);
         intSet.add(21);
+        intSet.add(20);
 
         System.out.println(intSet.first());  //kleinste
         System.out.println(intSet.last());  //grootste
+
+        System.out.println("-----");
 
         System.out.println(intSet.floor(20));  //grootste getal onder of gelijk aan 20
         System.out.println(intSet.ceiling(20));  //kleinste getal boven of gelijk aan 20

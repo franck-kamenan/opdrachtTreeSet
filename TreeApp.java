@@ -1,6 +1,7 @@
 package be.intecbrussel.opdrachten.opdrachttreeapp;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TreeApp {
 
@@ -23,5 +24,16 @@ public class TreeApp {
         System.out.println(intSet.ceiling(20));  //kleinste getal boven of gelijk aan 20
         System.out.println(intSet.lower(20));  //grootste getal onder 20
         System.out.println(intSet.higher(20));  //kleinste getal boven 20
+
+        System.out.println("-----");
+
+        List<Integer> intList;
+
+        intList = intSet.stream()
+                .filter(e -> e % 2 ==0)
+                .filter(e -> e < 21)
+                .collect(Collectors.toList());
+
+        intList.forEach(System.out::println);
     }
 }
